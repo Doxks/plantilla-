@@ -46,7 +46,7 @@ module.exports = {
             .addFields([{name: `📈 **__ESTADÍSTICAS__**`, value: `⚙ **${client.commands.size} Comandos**\n📁 en **${client.guilds.cache.size} Servidores**\n📶 **\`${client.ws.ping}ms\` Ping**\n👤 desarrollado por **[dewstouh#1088](https://discord.gg/MBPsvcphGf)**`}], )
             .addFields([{name: `✍ **__CÓDIGO PÚBLICO__**`, value: `[\`DESCARGA EL CÓDIGO GRATIS!\`](https://github.com/dewstouh/bot-del-canal)`}], )
             .setThumbnail(message.guild.iconURL({ dynamic: true }))
-            .setFooter({ text: `Página 1 / ${categorias.length+1}\n© desarrollado por dewstouh#1088 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png?size=4096` })
+            .setFooter({ text: `Página 1 / ${categorias.length+1}\n© desarrollado por limpus | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png?size=4096` })
             let embeds_pages = [ayuda_embed];
 
             //por cada categoria, creamos un embed y lo empujamos en embeds_pages
